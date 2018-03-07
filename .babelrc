@@ -1,0 +1,13 @@
+{
+    "presets": [
+      "flow",
+      "env",
+      "stage-1",
+      "react"
+    ],
+    "retainLines": true,
+    "plugins": [
+      "transform-runtime",
+      "react-hot-loader/babel"
+    ]
+  }
