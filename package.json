@@ -1,19 +1,18 @@
 {
-  "name": "config",
+  "name": "collector",
   "version": "1.0.0",
-  "description": "config",
+  "description": "collector",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "build-dev": "set NODE_ENV=development&& babel-node server.js",
     "build-prod": "set NODE_ENV=production&& webpack && babel-node server.js",
-    "lint": "eslint client/",
-    "lint:fix": "eslint client/ --fix",
-    "flow": "flow"
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IvaTsu/"
+    "url": "git+https://github.com/IvaTsu/collector.git"
   },
   "keywords": [
     "webapp",
@@ -23,9 +22,9 @@
   "author": "IvTs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IvaTsu//issues"
+    "url": "https://github.com/IvaTsu/collector.git/issues"
   },
-  "homepage": "https://github.com/IvaTsu/#readme",
+  "homepage": "https://github.com/IvaTsu/collector.git#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.2",
     "babel-cli": "^6.26.0",
