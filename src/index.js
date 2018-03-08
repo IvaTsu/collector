@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from './views/Menu';
+import App from './views/App';
 
 const root = document.querySelector('#app');
-ReactDOM.render(<Menu />, root);
+ReactDOM.render(<App />, root);

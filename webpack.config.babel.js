@@ -1,5 +1,7 @@
 import Config, { environment } from 'webpack-config';
 
+require('dotenv').config();
+
 environment.setAll({
   env: () => process.env.NODE_ENV,
 });

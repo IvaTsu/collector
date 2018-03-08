@@ -1,4 +1,4 @@
-# config
+# Collector App
 
 ## Getting Started
 
@@ -15,12 +15,13 @@ What things you need to install the software and how to install them. A step by 
 
 To run it on your machine, follow these steps:
 
-- `git clone `
-- `cd`
+- `git clone https://github.com/IvaTsu/collector.git`
+- `cd collector`
 - `npm install`
 - `npm build-dev` to enable live reload
 - `npm build-prod` for production
 - Open `localhost:7700` to see results
+- **NOTE:** it is needed to create a `.env` file with the following content: `NODE_ENV=development` to run `npm run build-dev` or `NODE_ENV=production` to run `npm run build-prod`
 
 ## Running the tests
 
@@ -40,7 +41,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [React](asasdsdasd) - The react web framework
+* Love
 
 ## Versioning
 
