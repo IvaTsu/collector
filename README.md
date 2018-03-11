@@ -23,21 +23,21 @@ To run it on your machine, follow these steps:
 - Open `localhost:7700` to see results
 - **NOTE:** it is needed to create a `.env` file with the following content: `NODE_ENV=development` to run `npm run build-dev` or `NODE_ENV=production` to run `npm run build-prod`
 
-## Running the tests
+### Running the tests
 
-Explain how to run the automated tests for this system
+Here wil be explanation on how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+Here wil be explained what these tests test and why
 
 ### And coding style tests
 
-Explain what these tests test and why
+Here wil be explained what these tests test and why
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Here will be added additional notes about how to deploy this on a live system
 
 ## Built With
 
